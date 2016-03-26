@@ -9,7 +9,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <sys/ioctl.h>
-#include <linux/i2c-dev.h>
+#include <linux/i2c.h>
 
 #define MAX_PATH_LEN 20
 #define I2C_DEVICE_PATH_BASE "/dev/i2c-"
